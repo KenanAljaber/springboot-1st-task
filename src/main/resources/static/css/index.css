@@ -1,0 +1,35 @@
+.container1{
+	display:flex;
+	flex-direction: column;
+}
+.container img{
+	width:200px;
+}
+
+body{
+	    font-family: sans-serif;
+	text-align: center;
+}
+
+h1{
+	margin-bottom: 0;
+}
+
+p{
+	font-style: italic;
+	    color: #ababab;
+}
+.divider{
+	height: 1px;
+	width:50%;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	background: black;
+}
+.imgHolder{
+	       display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}

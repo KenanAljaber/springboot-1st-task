@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Tarea</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/index.css}">
+</head>
+<body>
+<div class="container">
+<div class="container1">
+<h1>Da Vinci Artwork</h1>
+<p>Task 1-5</p>
+<div>
+<img th:src="@{/images/mona-lisa.png}">
+<img th:src="@{/images/salvator.png}">
+</div>
+</div>
+<div class="divider"></div>
+
+<div class="container2">
+<h1>Da Vinci Artwork</h1>
+<p>Task 6-7</p>
+<div>
+<img th:src="@{/images/mona-lisa.png}">
+<h4 th:text="${monalisa}"></h4>
+</div>
+<div>
+<img th:src="@{/images/salvator.png}">
+<h4 th:text="${salvator}"></h4>
+</div>
+</div>
+
+<div class="divider"></div>
+<div class="container2">
+<h1>Da Vinci Artwork</h1>
+<p>Task 6-7</p>
+<div class="imgHolder">
+<img th:src="@{/images/mona-lisa.png}">
+<h4 th:text="${monalisa}"></h4>
+</div>
+<div class="imgHolder">
+<img th:src="@{/images/salvator.png}">
+<h4 th:text="${salvator}"></h4>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
